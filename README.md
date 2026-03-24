@@ -1,7 +1,7 @@
 ## ▫️Olá, Eu me chamo Gabriel dos Santos Fernandes Estevam
 **`Estudante | Front-End`**
-<p>Atualmente estou estudando programação pela internet, com o objetivo de adquirir
-mais conhecimento na área da computação e ter oportunidades no mercado de trabalho.
+<p>Atualmente estou estudando cursando TSI | IFRN, e estudando programação pela internet, com o objetivo de adquirir
+mais conhecimento na área, e ter oportunidades no mercado de trabalho.
 Neste GitHub eu guardo todos os meus exercícios, projetos e atividades de cursos,
 para melhor organização e facilidade de acesso.</p>
 
