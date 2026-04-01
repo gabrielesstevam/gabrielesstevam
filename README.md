@@ -5,10 +5,6 @@ mais conhecimento na área, e ter oportunidades no mercado de trabalho.
 Neste GitHub eu guardo todos os meus exercícios, projetos e atividades de cursos,
 para melhor organização e facilidade de acesso.</p>
 
-<div align="center">
-  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=gabrielesstevam&show_icons=true&theme=dark#gh-dark-mode-only">
-  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabrielesstevam&exclude_repo=github-readme-stats,anuraghazra.github.io&theme=dark#gh-dark-mode-only">
-</div>
 <h3>▫️Linguagens que estou estudando</h3>
 <div>
 <img height="35em" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
