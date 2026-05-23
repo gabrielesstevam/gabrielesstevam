@@ -273,13 +273,6 @@ article#video .video-container{
     font-size: 1.6em;
     gap: 10px;
 }
-#projeto-container .foto{
-    width: 100%;
-    aspect-ratio: 16/9;
-    object-fit: cover;
-    overflow: hidden;
-    border-radius: 8px;
-}
 #projeto-container .projeto:hover{
     border-left-color: var(--destaque);
     border-left-width: 15px;
@@ -287,6 +280,9 @@ article#video .video-container{
 }
 #projeto-container .periodo, .titulo{
     margin-bottom: 10px;
+}
+.projeto details{
+    font-size: 0.8em;
 }
 .projeto p.descricao{
     display: none;
@@ -320,7 +316,6 @@ footer{
         justify-content: flex-start;
     }
     #projeto-container .foto{
-        aspect-ratio: 1/1;
         max-width: 30%;
         max-height: 250px;
     }
@@ -338,6 +333,7 @@ footer{
     }
     .projeto p.descricao{
         display: inline-block;
+        font-size: 0.8em;
     }
     .projeto details.descricao{
         display: none;
