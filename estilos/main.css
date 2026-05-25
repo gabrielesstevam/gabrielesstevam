@@ -333,7 +333,7 @@ footer{
     }
     .projeto p.descricao{
         display: inline-block;
-        font-size: 0.8em;
+        font-size: 1em;
     }
     .projeto details.descricao{
         display: none;
