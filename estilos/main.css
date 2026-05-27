@@ -8,8 +8,8 @@
     --fundo-principal: #f5f5f5;
     --texto: #222222;
     --texto-inverso: #ffffff;
-    --destaque: #8e1ea7;
-    --destaque-inverso: #ca46ce;
+    --destaque: #b16c55;
+    --destaque-inverso: #ff9d64;
     --fundo-card: #ffffff;
 }
 /* :root {
@@ -42,8 +42,8 @@ body.escuro{
     --fundo-principal: #222222;
     --texto: #e0e0e0;
     --texto-inverso: #333333;
-    --destaque: #1fc237;
-    --destaque-inverso: #316917;
+    --destaque: #31bebc;
+    --destaque-inverso: #0e6662;
     --fundo-card: #444444;
 }
 header{
