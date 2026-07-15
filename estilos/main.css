@@ -32,6 +32,9 @@
 #python {
     color: rgb(140, 140, 202);
 }
+#bootstrap {
+    color: rgb(122, 39, 190);
+}
 /* ---------------------------- */
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -150,19 +153,6 @@ article h2{
     color: var(--destaque);
     margin-bottom: 10px;
 }
-article#video .video-container{
-    position: relative;
-    width: 100%;
-    aspect-ratio: 16/9;
-}
-.video-container iframe{
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-}
 
 #skill-container {
     display: grid;
@@ -273,7 +263,7 @@ article#video .video-container{
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-start;
-    font-size: 1.6em;
+    font-size: 1.2em;
     gap: 10px;
 }
 #projeto-container .projeto:hover{
