@@ -1,8 +1,29 @@
-## Oi, tranquilo!? 👋
+<h1 align="center">Bem-vindo ao meu GitHub! Me chamo Gabriel Estevam</h1>
+<h6 align="center">Estudante de Sistemas para Internet | Desenvolvedor Full-Stack em Formação</h6>
+<p align="center"> <a href="https://gabrielesstevam.github.io/gabrielesstevam/"> <img src="https://img.shields.io/badge/Portfólio-000?style=for-the-badge&logo=google-chrome&logoColor=white" /></a></p>
 
-Me chamo Gabriel dos Santos Fernandes Estevam.  
-Este é o meu GitHub, onde compartilho projetos, estudos e conhecimentos que venho adquirindo na área da computação.
+> <h2>Sobre mim</h2>
 
-Caso queira conhecer meu portfólio, é só acessar o link abaixo. Tmj!
+Sou apaixonado pela área da tecnologia. Desde pequeno, sempre gostei de resolver problemas e criar soluções utilizando lógica e algoritmos. Desde então, venho me aprofundando cada vez mais no mundo da computação, buscando desenvolver meus conhecimentos técnicos, e obter uma oportunidade no mercado de trabalho
 
-[Acesse aqui o Portifólio](https://gabrielesstevam.github.io/gabrielesstevam/)
+Atualmente, sou estudante de Sistemas para Internet e venho me aprofundando no desenvolvimento Front-End. Neste GitHub, compartilho meus projetos, estudos, experimentos e aprendizados ao longo da minha jornada na área de tecnologia.
+> <h2>Tecnologias</h2>
+
+Atualmente, estou estudando e utilizando:
+
+<div>
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind,git,github" />
+
+</div>
+
+> <h2>Formação</h2>
+
+Atualmente cursando o 2° período do curso **Tecnólogo em Sistemas para Internet**
+
+> <h2>Contato</h2>
+
+Caso queira entrar em contato ou acompanhar meu trabalho:
+
+<a href="https://www.linkedin.com/in/gabrielesstevam/"> <img src="https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <br>
+<a href="mailto:gsfe1502@gmail.com"> <img src="https://img.shields.io/badge/Gmail-000?style=for-the-badge&logoColor=white" /> </a>
