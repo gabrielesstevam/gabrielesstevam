@@ -4,9 +4,9 @@
 
 > <h2>Sobre mim</h2>
 
-Sou apaixonado pela área da tecnologia. Desde pequeno, sempre gostei de resolver problemas e criar soluções utilizando lógica e algoritmos. Desde então, venho me aprofundando cada vez mais no mundo da computação, buscando desenvolver meus conhecimentos técnicos, e obter uma oportunidade no mercado de trabalho
+Sou apaixonado pela área da tecnologia. Desde pequeno, sempre gostei de resolver problemas e criar soluções utilizando lógica e algoritmos. Desde então, venho me aprofundando cada vez mais no mundo da computação, buscando desenvolver meus conhecimentos técnicos, e minha primeira oportunidade no mercado de trabalho
 
-Atualmente, sou estudante de Sistemas para Internet e venho me aprofundando no desenvolvimento Front-End. Neste GitHub, compartilho meus projetos, estudos, experimentos e aprendizados ao longo da minha jornada na área de tecnologia.
+Atualmente, sou estudante de Sistemas para Internet e venho me aprofundando no desenvolvimento Web, com foco atual em Front-End. Neste GitHub, compartilho meus projetos, estudos, experimentos e aprendizados ao longo da minha jornada na área de tecnologia.
 > <h2>Tecnologias</h2>
 
 Atualmente, estou estudando e utilizando:
