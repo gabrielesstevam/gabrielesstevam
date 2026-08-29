@@ -13,7 +13,7 @@ Atualmente, estou estudando e utilizando:
 
 <div>
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind,git,github" />
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind,python,git,github" />
 
 </div>
 
