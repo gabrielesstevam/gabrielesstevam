@@ -26,4 +26,4 @@ Atualmente cursando o 2° período do curso **Tecnólogo em Sistemas para Intern
 Caso queira entrar em contato ou acompanhar meu trabalho:
 
 <a href="https://www.linkedin.com/in/gabrielesstevam/"> <img src="https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <br>
-<a href="mailto:gsfe1502@gmail.com"> <img src="https://img.shields.io/badge/Gmail-000?style=for-the-badge&logoColor=white" /> </a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=gsfe1502@gmail.com"> <img src="https://img.shields.io/badge/Gmail-000?style=for-the-badge&logoColor=white" /> </a>
