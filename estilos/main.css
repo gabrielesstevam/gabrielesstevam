@@ -35,6 +35,12 @@
 #bootstrap {
     color: rgb(122, 39, 190);
 }
+#react {
+    color: rgb(108, 149, 197);
+}
+#tailwind {
+    color: rgb(60, 116, 199);
+}
 /* ---------------------------- */
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
