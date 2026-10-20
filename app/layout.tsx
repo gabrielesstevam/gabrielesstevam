@@ -3,23 +3,28 @@ import type { ReactNode } from "react";
 import { cn } from "@/lib/utils";
 import "./globals.css";
 import SideRays from "../components/SideRays/SideRays";
-import Header from "../components/Header/Header"
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
+import { Poppins } from "next/font/google";
 
 export const metadata: Metadata = {
   title: "Portfólio | Gabriel Estevam",
   description: "Desenvolvedor Front-End Júnior",
 };
 
-export default function RootLayout({
-  children, }: { children: ReactNode; }) {
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-poppins",
+});
+
+export default function RootLayout({ children, }: { children: ReactNode; }) {
     return (
       <html
         lang="pt-BR"
         className={cn("h-full antialiased")}
       >
-        <body className="min-h-screen">
-
-          <div className="animated-gradient"/>
+        <body className={`min-h-screen ${poppins.className} min-h-screen flex flex-col`}>
           <div className="side-rays-background">
             <SideRays
               rayColor1="#f000d1"
@@ -46,8 +51,10 @@ export default function RootLayout({
           <div className="site-content">
 
             <Header/>
-            {children}
-
+            <main className="">
+              {children}
+            </main>
+            <Footer/>
 
           </div>
         </body>
