@@ -1,0 +1,29 @@
+{
+    "ensino":[
+        {
+        "nome":"Técnico em Rede de Computadores",
+        "local":"Centro Estadual de Educação Profissional Professora Lourdinha Guerra",
+        "periodo":"Concluído - 2022 a 2024"
+        },
+        {
+        "nome":"Tecnólogo em Sistemas para Internet",
+        "local":"Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte",
+        "periodo":"Cursando - 2° período"
+        }
+    ],
+    "cursos":[
+        {
+            "nome":"HTML e CSS [200 HORAS] - Curso em Vídeo",
+            "data":"04.2026"
+        },
+        {
+            "nome":"JavaScript [40 HORAS] - Curso em Vídeo",
+            "data":"05.2026"
+        },
+        {
+            "nome":"React direto ao ponto [10 HORAS] - Lucas Caton",
+            "data":"10.2026"
+        }
+    ]
+
+}
