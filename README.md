@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">Bem-vindo ao meu GitHub! Me chamo Gabriel Estevam</h1>
+<h6 align="center">Estudante de Sistemas para Internet | Dev Full-Stack em Formação</h6>
+<p align="center"> <a href="https://gabrielesstevam.github.io/gabrielesstevam/"> <img src="https://img.shields.io/badge/Portfólio-000?style=for-the-badge&logo=google-chrome&logoColor=white" /></a></p>
 
-## Getting Started
+> <h2>Sobre mim</h2>
 
-First, run the development server:
+Sou apaixonado pela área da tecnologia. Desde pequeno, sempre gostei de resolver problemas e criar soluções utilizando lógica e algoritmos. Desde então, venho me aprofundando cada vez mais no mundo da computação, buscando desenvolver meus conhecimentos técnicos, e minha primeira oportunidade no mercado de trabalho
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Atualmente, sou estudante de Sistemas para Internet e venho me aprofundando no desenvolvimento Web, com foco atual em Front-End. Neste GitHub, compartilho meus projetos, estudos, experimentos e aprendizados ao longo da minha jornada na área de tecnologia.
+> <h2>Tecnologias</h2>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Atualmente, estou estudando e utilizando:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<div>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind,python,git,github" />
 
-## Learn More
+</div>
 
-To learn more about Next.js, take a look at the following resources:
+> <h2>Formação</h2>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Atualmente cursando o 2° período do curso **Tecnólogo em Sistemas para Internet**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+> <h2>Contato</h2>
 
-## Deploy on Vercel
+Caso queira entrar em contato ou acompanhar meu trabalho:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<a href="https://www.linkedin.com/in/gabrielesstevam/"> <img src="https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <br>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=gsfe1502@gmail.com"> <img src="https://img.shields.io/badge/Gmail-000?style=for-the-badge&logoColor=white" /> </a>
