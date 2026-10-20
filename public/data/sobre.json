@@ -1,0 +1,20 @@
+{
+  "texto":[
+    
+  "Sou estudante do 2º período de Sistemas para Internet no IFRN, onde venho construindo minha base em desenvolvimento de software e explorando diferentes tecnologias para a criação de aplicações web.",
+  
+  "Atualmente, busco uma oportunidade profissional na área de desenvolvimento, na qual possa aplicar meus conhecimentos, adquirir experiência prática e aprofundar minhas habilidades em desenvolvimento Front-End, boas práticas de programação e criação de interfaces intuitivas, acessíveis e responsivas."],
+
+  "tecnologias":[
+    { "name": "HTML5" },
+    { "name": "CSS3" },
+    { "name": "JavaScript" },
+    { "name": "TypeScript" },
+    { "name": "TailwindCSS" },
+    { "name": "ReactJS" },
+    { "name": "NextJS" },
+    { "name": "Vite" },
+    { "name": "Git/GitHub" },
+    { "name": "Python" }
+  ]
+}

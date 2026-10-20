@@ -28,26 +28,26 @@ export default function Header() {
       {isMenuEnabled ? (
         <div className={`text-white fixed h-[100vh] w-1/2 bg-[#17121F] right-0 ${isMenuEnabled ? "" : "hidden"} boardshadow`}>
 
-        <div className="p-8 absolute">
-          <button className="relative z-50 " onClick={() => setIsMenuEnabled(false)}>
-            <FontAwesomeIcon icon={faCircleXmark} style={{ width: "25px", height: "25px" }}/>
-          </button>  
-        </div>
+          <div className="p-8 absolute">
+            <button className="relative z-50 " onClick={() => setIsMenuEnabled(false)}>
+              <FontAwesomeIcon icon={faCircleXmark} style={{ width: "25px", height: "25px" }}/>
+            </button>  
+          </div>
 
-        <div className="h-full flex justify-center items-center">
-            <ul className="border-r p-5 flex flex-col gap-15 text-lg">
-              {LinkList.map((link)=> {
-                return(
-                  <li key={link.name} className="text-end link">
-                    <Link href={link.link}>
-                      {link.name}
-                    </Link>
-                  </li>
-                )
-              })}
-            </ul>
+          <div className="h-full flex justify-center items-center">
+              <ul className="border-r p-5 flex flex-col gap-15 text-lg">
+                {LinkList.map((link)=> {
+                  return(
+                    <li key={link.name} className="text-end link">
+                      <Link href={link.link} onClick={() => setIsMenuEnabled(false)}>
+                        {link.name}
+                      </Link>
+                    </li>
+                  )
+                })}
+              </ul>
+          </div>
         </div>
-      </div>
       ) : ""}
     </>
   );

@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-,     "components/NavBar/Header.jsx"  ],
+,     "components/NavBar/Header.jsx", "app/sobre/page.tsx"  ],
   "exclude": ["node_modules"]
 }
