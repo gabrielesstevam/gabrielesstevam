@@ -14,8 +14,8 @@ export default function Home() {
         <div className="flex flex-wrap gap-3">
           {Sobre.tecnologias.map((tecnologia) => {
             return (
-              <div key={tecnologia.name} className="p-3 bg-linear-to-r from-[#ffffff80] to-transparent rounded-2xl border">
-                {tecnologia.name}
+              <div key={tecnologia.nome} className="p-3 bg-linear-to-r from-[#8800f780] to-transparent rounded-2xl border border-purple-600">
+                {tecnologia.nome}
               </div>
             )
           })}

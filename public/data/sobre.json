@@ -6,15 +6,15 @@
   "Atualmente, busco uma oportunidade profissional na área de desenvolvimento, na qual possa aplicar meus conhecimentos, adquirir experiência prática e aprofundar minhas habilidades em desenvolvimento Front-End, boas práticas de programação e criação de interfaces intuitivas, acessíveis e responsivas."],
 
   "tecnologias":[
-    { "name": "HTML5" },
-    { "name": "CSS3" },
-    { "name": "JavaScript" },
-    { "name": "TypeScript" },
-    { "name": "TailwindCSS" },
-    { "name": "ReactJS" },
-    { "name": "NextJS" },
-    { "name": "Vite" },
-    { "name": "Git/GitHub" },
-    { "name": "Python" }
+    { "nome": "HTML5" },
+    { "nome": "CSS3" },
+    { "nome": "JavaScript" },
+    { "nome": "TypeScript" },
+    { "nome": "TailwindCSS" },
+    { "nome": "ReactJS" },
+    { "nome": "NextJS" },
+    { "nome": "Vite" },
+    { "nome": "Git/GitHub" },
+    { "nome": "Python" }
   ]
 }

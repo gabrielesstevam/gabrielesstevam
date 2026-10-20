@@ -1,0 +1,32 @@
+[
+  {
+    "data":"07.2026",
+    "titulo":"Simulador de Loteria",
+    "descricao":"Projeto universitário desenvolvido para fins avaliativos, nele foi praticado a manipulação de arquivos csv, implementação de interface gráfica com Tkinter, e trabalho em equipe",
+    "tecnologias":[
+      "Python"
+    ],
+    "github":"https://github.com/gabrielesstevam/projeto_dashboard_climatico",
+    "site":"https://gabrielesstevam.github.io/projeto_dashboard_climatico/"
+  },
+  {
+    "data":"09.2026",
+    "titulo":"DashBoard Climático",
+    "descricao":"Prática de JavaScript, com foco em consumo de APIs, modularização do código, manipulação do DOM e uso do LocalStorage.",
+    "tecnologias":[
+      "Html", "Css", "Js"
+    ],
+    "github":"https://github.com/gabrielesstevam/projeto_dashboard_climatico",
+    "site":"https://gabrielesstevam.github.io/projeto_dashboard_climatico/"
+  },
+  {
+    "data":"10.2026",
+    "titulo":"Algoritmo de Temporizador",
+    "descricao":"Prática de ReactJS, parar aprofundar no uso de useState, useEffect e useRef.",
+    "tecnologias":[
+      "Html", "Css", "Js", "Tailwind", "ReactJS"
+    ],
+    "github":"https://github.com/gabrielesstevam/projeto_temporizador",
+    "site":"https://gabrielesstevam.github.io/projeto_temporizador/"
+  }
+]

@@ -171,8 +171,14 @@ body {
 }
 
 .gradientText {
-  background: linear-gradient(to right, #FF00E6, #ffffff);
+  background: linear-gradient(to right, #8800f7, #ffffff);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+.gradientIcon {
+  background: linear-gradient(to right, #a855f7, #06b6d4);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
