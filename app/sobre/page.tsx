@@ -21,9 +21,12 @@ export default function Home() {
         <div className="flex flex-wrap gap-3 md:w-2/3">
           {Sobre.tecnologias.map((tecnologia) => {
             return (
-              <div key={tecnologia.nome} className="py-3 px-5 text-purple-300 bg-linear-to-r from-[#8800f780] to-transparent rounded-2xl border border-purple-600 shadow-2xl shadow-[#8800f780]">
+              <motion.div 
+              whileHover={{ scale:1.1, rotate: 3, color:"#ffffff", borderColor:"#ffffff" }}
+              transition={{ type:"spring" }}
+              key={tecnologia.nome} className="py-3 px-5 text-purple-300 bg-linear-to-r from-[#8800f780] to-transparent rounded-2xl border border-purple-600 shadow-2xl shadow-[#8800f780]">
                 {tecnologia.nome}
-              </div>
+              </motion.div>
             )
           })}
         </div>

@@ -6,6 +6,7 @@ import SideRays from "../components/SideRays/SideRays";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import { Poppins } from "next/font/google";
+import PageTransition from "../components/PageTransition/PageTransition"
 
 export const metadata: Metadata = {
   title: "Portfólio | Gabriel Estevam",
@@ -19,6 +20,7 @@ const poppins = Poppins({
 });
 
 export default function RootLayout({ children, }: { children: ReactNode; }) {
+
     return (
       <html
         lang="pt-BR"
@@ -52,10 +54,12 @@ export default function RootLayout({ children, }: { children: ReactNode; }) {
 
             <Header/>
             <main className="">
-              {children}
+              <PageTransition>
+                {children}
+              </PageTransition>
             </main>
             <Footer/>
-
+        
           </div>
         </body>
       </html>

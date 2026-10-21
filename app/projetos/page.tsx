@@ -53,7 +53,10 @@ export default function Home() {
       <div className="flex flex-col gap-3 lg:grid grid-cols-2 lg:gap-5">
         {Projetos.map((projeto) => {
           return(
-            <div key={projeto.titulo} className="p-3 border border-purple-500 bg-linear-to-r from-[#8800f746] to-transparent rounded-2xl shadow-2xl shadow-[#8800f780] flex flex-col gap-3">
+            <motion.div 
+            whileHover={{ borderColor:"#ffffff" }}
+            transition={{ type:"spring" }}
+            key={projeto.titulo} className="p-3 border border-purple-500 bg-linear-to-r from-[#8800f746] to-transparent rounded-2xl shadow-2xl shadow-[#8800f780] flex flex-col gap-3">
               <p className="text-sm text-purple-300">{projeto.data}</p>
               <h1 className="font-medium text-xl">{projeto.titulo}</h1>
               <hr className="border-purple-300" />
@@ -62,21 +65,21 @@ export default function Home() {
               <div>
               {projeto.tecnologias.map((tecnologia) => {
                   return (
-                    <FontAwesomeIcon className="text-2xl text-purple-200" icon={AcharIcon(tecnologia)}></FontAwesomeIcon>
+                    <FontAwesomeIcon key={tecnologia} className="text-2xl lg:text-3xl text-purple-200 hover:text-white transition" icon={AcharIcon(tecnologia)}></FontAwesomeIcon>
                   )
                 })}
                 </div>
               <hr className="border-purple-300" />
               <div className="flex gap-3 items-center">
-                <p className="flex items-center gap-3 p-2 border border-purple-500 bg-linear-to-r from-[#8800f780] to-transparent w-fit rounded-2xl text-purple-300">
+                <motion.p whileHover={{ borderColor:"#ffffff", color:"#ffffff", scale:1.05 }} transition={{ type:"spring" }} className="flex items-center gap-3 p-2 border border-purple-500 bg-linear-to-r from-[#8800f780] to-transparent w-fit rounded-2xl text-purple-300">
                   Confira o Resultado <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon>
-                </p>
-                <a href={projeto.github} target="_blank"><FontAwesomeIcon className="text-3xl text-purple-200" icon={faGithub}/></a>
-                {projeto.site ? (<a href={projeto.site} target="_blank"><FontAwesomeIcon className="text-3xl text-purple-300" icon={faGlobe}/></a>) : ""}
+                </motion.p>
+                <motion.a whileHover={{ scale:1.2 }} transition={{ type:"spring" }} href={projeto.github} target="_blank"><FontAwesomeIcon className="text-3xl text-purple-300 hover:text-white" icon={faGithub}/></motion.a>
+                {projeto.site ? (<motion.a whileHover={{ scale:1.2 }} transition={{ type:"spring" }} href={projeto.site} target="_blank"><FontAwesomeIcon className="text-3xl text-purple-300 hover:text-white" icon={faGlobe}/></motion.a>) : ""}
               </div>
               
 
-            </div>
+            </motion.div>
             
           )
         })}

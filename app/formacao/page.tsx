@@ -14,13 +14,15 @@ export default function Home() {
       <div className="flex flex-col gap-5 lg:grid grid-cols-2">
         {Formacao.ensino.map((ensino) => {
           return(
-            <div key={ensino.nome} className="p-3 border border-purple-500 rounded-2xl shadow-2xl shadow-[#8800f746] bg-linear-to-r from-[#8800f746] flex flex-col gap-3">
+            <motion.div 
+            whileHover={{ borderColor: "#ffffff" }}
+            key={ensino.nome} className="p-4 border border-purple-500 rounded-2xl shadow-2xl shadow-[#8800f746] bg-linear-to-r from-[#8800f746] flex flex-col gap-3">
               <p className="text-purple-300 text-sm">{ensino.periodo}</p>
               <hr className="border-purple-300"/>
               <h2 className="font-medium text-xl">{ensino.nome}</h2>
               <hr className="border-purple-300"/>
               <p className="text-purple-300">{ensino.local}</p>
-            </div>
+            </motion.div>
           )
         })}
       </div>
@@ -31,11 +33,13 @@ export default function Home() {
       <div className="flex flex-col gap-3 lg:grid grid-cols-3">
         {Formacao.cursos.map((curso) => {
           return(
-            <div key={curso.nome} className="p-3 border border-purple-500 rounded-2xl shadow-2xl shadow-[#8800f746] bg-linear-to-r from-[#8800f746] flex flex-col gap-3">
+            <motion.div 
+            whileHover={{ borderColor: "#ffffff" }}
+            key={curso.nome} className="p-4 border border-purple-500 rounded-2xl shadow-2xl shadow-[#8800f746] bg-linear-to-r from-[#8800f746] flex flex-col gap-3">
               <p className="text-purple-300 text-sm">{curso.data}</p>
               <hr className="border-purple-300"/>
               <h2 className="font-medium text-lg">{curso.nome}</h2>
-            </div>
+            </motion.div>
           )
         })}
       </div>

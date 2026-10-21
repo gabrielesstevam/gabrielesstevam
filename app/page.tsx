@@ -18,11 +18,16 @@ export default function Home() {
           <h1>DESENVOLVEDOR <br/> FRONT-END <span className="text-3xl md:text-5xl gradientText">JÚNIOR</span></h1>
         </div>
         <p className="text-justify lg:w-2/3 lg:text-lg">Olá! Sou Gabriel, estudante de Sistemas para Internet no IFRN, apaixonado por tecnologia e desenvolvimento web. Estou desenvolvendo minhas habilidades em programação e criando projetos para evoluir como desenvolvedor.</p>
-        <a href="../public/data/Currículo_GabrielEstevam.pdf" download={"Currículo_GabrielEstevam.pdf"} className="bg-linear-to-r from-[#8800f780] to-transparent border border-purple-600 rounded-2xl p-3 text-center text-purple-300 flex items-center justify-center gap-3 shadow-2xl shadow-[#8800f780] lg:w-2/3">
+        <motion.a 
+        whileHover={{ scale: 1.05, borderColor:"#ffffff", color:"#ffffff" }}
+        whileTap={{ scale: 1.1 }}
+        transition={{ type:"spring" }}
+        href="../public/data/Currículo_GabrielEstevam.pdf" download={"Currículo_GabrielEstevam.pdf"} className="bg-linear-to-r from-[#8800f780] to-transparent border border-purple-600 rounded-2xl p-3 text-center text-purple-300 flex items-center justify-center gap-3 shadow-lg/40 shadow-[#8800f7] lg:w-2/3">
           <FontAwesomeIcon className="text-xl" icon={faDownload} />
           Baixe meu currículo aqui!
-        </a>
+        </motion.a>
       </motion.div>
     </>
   );
 }
+

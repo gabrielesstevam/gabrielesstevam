@@ -27,7 +27,7 @@ export default function Header() {
         </button>
       </div>
       {isMenuEnabled ? (
-        <div className={`text-white fixed h-[100vh] w-1/2 bg-[#17121F] right-0 ${isMenuEnabled ? "" : "hidden"} boardshadow`}>
+        <div className={`text-white fixed h-[100vh] w-1/2 bg-[#17121F] z-100 right-0 ${isMenuEnabled ? "" : "hidden"} boardshadow`}>
 
           <div className="p-8 absolute">
             <button className="relative z-50 " onClick={() => setIsMenuEnabled(false)}>
