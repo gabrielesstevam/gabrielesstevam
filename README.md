@@ -1,6 +1,6 @@
 <h1 align="center">Bem-vindo ao meu GitHub! Me chamo Gabriel Estevam</h1>
 <h6 align="center">Estudante de Sistemas para Internet | Dev Full-Stack em Formação</h6>
-<p align="center"> <a href="https://gabrielesstevam.github.io/gabrielesstevam/"> <img src="https://img.shields.io/badge/Portfólio-000?style=for-the-badge&logo=google-chrome&logoColor=white" /></a></p>
+<p align="center"> <a href="https://gabrielesstevam.vercel.app/"> <img src="https://img.shields.io/badge/Portfólio-000?style=for-the-badge&logo=google-chrome&logoColor=white" /></a></p>
 
 > <h2>Sobre mim</h2>
 
