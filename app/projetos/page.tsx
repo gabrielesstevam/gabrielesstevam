@@ -38,6 +38,8 @@ function AcharIcon(text : string){
     case("Python"):{
       return (faPython)
     }
+    default:
+      return faGlobe;
   }
 }
 
@@ -65,7 +67,7 @@ export default function Home() {
               <div>
               {projeto.tecnologias.map((tecnologia) => {
                   return (
-                    <FontAwesomeIcon key={tecnologia} className="text-2xl lg:text-3xl text-purple-200 hover:text-white transition" icon={AcharIcon(tecnologia)}></FontAwesomeIcon>
+                    <FontAwesomeIcon key={tecnologia} className="text-2xl lg:text-3xl text-purple-200 hover:text-white transition hover:text-2xl" icon={AcharIcon(tecnologia)}></FontAwesomeIcon>
                   )
                 })}
                 </div>

@@ -216,7 +216,7 @@ const SideRays = ({
   opacity = 1,
   maxDevicePixelRatio = 2,
   className = '',
-  style
+  style = {}
 }) => {
   const containerRef = useRef(null);
   const canvasRef = useRef(null);
