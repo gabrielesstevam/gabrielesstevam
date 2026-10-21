@@ -6,21 +6,21 @@ import { faCopyright } from "@fortawesome/free-regular-svg-icons";
 export default function Footer() {
   
   return (
-    <footer className="text-white flex justify-between mx-5 p-2">
-        <div className="flex gap-5">
+    <footer className="text-white flex justify-between mx-5 p-2 mt-10">
+        <div className="flex gap-5 text-lg">
             <a href="https://github.com/gabrielesstevam">
-                <FontAwesomeIcon icon={faGithub} style={{ width: "25px", height: "25px" }}/>
+                <FontAwesomeIcon icon={faGithub}/>
             </a>
             <a href="https://www.linkedin.com/in/gabrielesstevam/">
-                <FontAwesomeIcon icon={faLinkedin} style={{ width: "25px", height: "25px" }}/>
+                <FontAwesomeIcon icon={faLinkedin}/>
             </a>
             <a href="mailto:gsfe1502@gmail.com" target="_blank">
-                <FontAwesomeIcon icon={faEnvelope} style={{ width: "25px", height: "25px" }}/>
+                <FontAwesomeIcon icon={faEnvelope}/>
             </a>
         </div>
         <div className="flex gap-5">
-            <p className="flex gap-2 items-center">
-                <FontAwesomeIcon icon={faCopyright} style={{ width: "15px", height: "15px" }}/>
+            <p className="flex gap-2 items-center text-sm md:text-xs">
+                <FontAwesomeIcon icon={faCopyright}/>
                 2026 Gabriel Estevam
             </p>
         </div>

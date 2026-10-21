@@ -19,12 +19,13 @@ export default function Header() {
 
   return (
     <>
+      {/* ---------------------------------------------------------*/}
+
       <div className="text-white p-5 flex justify-end md:hidden">
         <button onClick={() => {setIsMenuEnabled(true)}}>
           <FontAwesomeIcon icon={faBars} style={{ width: "25px", height: "25px" }}/>
         </button>
       </div>
-
       {isMenuEnabled ? (
         <div className={`text-white fixed h-[100vh] w-1/2 bg-[#17121F] right-0 ${isMenuEnabled ? "" : "hidden"} boardshadow`}>
 
@@ -35,7 +36,7 @@ export default function Header() {
           </div>
 
           <div className="h-full flex justify-center items-center">
-              <ul className="border-r p-5 flex flex-col gap-15 text-lg">
+              <ul className="border-r p-5 flex flex-col landscape:gap-5 gap-15 text-lg">
                 {LinkList.map((link)=> {
                   return(
                     <li key={link.name} className="text-end link">
@@ -49,6 +50,22 @@ export default function Header() {
           </div>
         </div>
       ) : ""}
+
+      {/* ---------------------------------------------------------*/}
+      {/* ---------------------------------------------------------*/}
+
+      <div className="hidden md:flex text-white h-20 justify-center items-center">
+        <ul className="text-white flex border-b justify-center items-center w-fit gap-8 py-2 px-5">
+          {LinkList.map((link) => {
+            return(
+              <Link key={link.name} href={link.link}>
+                {link.name}
+              </Link>
+            ) 
+          })}
+        </ul>
+      </div>
+      
     </>
   );
 }
