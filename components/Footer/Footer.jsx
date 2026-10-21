@@ -12,12 +12,12 @@ export default function Footer() {
         <div className="flex gap-5 text-lg">
             <motion.a
             whileHover={{ scale:1.5 }}
-            href="https://github.com/gabrielesstevam">
+            href="https://github.com/gabrielesstevam" target="_blank">
                 <FontAwesomeIcon icon={faGithub}/>
             </motion.a>            
             <motion.a
             whileHover={{ scale:1.5 }}
-            href="https://www.linkedin.com/in/gabrielesstevam/">
+            href="https://www.linkedin.com/in/gabrielesstevam/" target="_blank">
                 <FontAwesomeIcon icon={faLinkedin}/>
             </motion.a>
 

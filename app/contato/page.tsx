@@ -56,6 +56,7 @@ export default function Home() {
             rotate: 1
           }}
           href="mailto:gsfe1502@gmail.com"
+          target="_blank"
           className="p-4 flex items-center gap-5 shadow-2xl shadow-[#8800f746] bg-linear-to-r from-[#8800f746] to-transparent border border-purple-500 rounded-2xl text-purple-300 lg:px-8"
         >
           <FontAwesomeIcon className="text-2xl" icon={faEnvelope} />
