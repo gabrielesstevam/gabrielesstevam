@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export default function NotFound() {
     return (
-        <div className="border w-full h-[70vh] flex justify-center items-center flex-col gap-5">
-            <h1 className="text-9xl font-bold w-fit text-center p-5">
-                <span className="gradientText w-fit">404</span> <br /> <span className="text-7xl gradientText w-fit">PÁGINA NÃO ENCONTRADA</span>
+        <div className="w-full h-[70vh] flex justify-center items-center flex-col gap-5">
+            <h1 className="text-7xl lg:text-9xl font-bold w-fit text-center p-5">
+                <span className="gradientText w-fit">404</span> <br /> <span className="text-2xl lg:text-7xl gradientText w-fit">PÁGINA NÃO ENCONTRADA</span>
             </h1>
 
             <Link href="/">
