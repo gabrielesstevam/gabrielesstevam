@@ -1,3 +1,6 @@
+"use client";
+import { motion } from "motion/react"
+import { AnimatePresence } from "motion/react"
 import Projetos from "../../public/data/projetos.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faGlobe } from "@fortawesome/free-solid-svg-icons";
@@ -41,7 +44,11 @@ function AcharIcon(text : string){
 export default function Home() {
   return (
     <>
-    <div className="text-white p-5 m-2 flex gap-6 flex-col">
+    <motion.div 
+        className="text-white p-5 m-2 flex gap-6 flex-col"
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        transition={{duration: 0.5, ease:"easeIn", delay: 0.5 }}>
       <h2 className="text-4xl lg:text-5xl font-extrabold gradientText inline-block w-fit">PROJETOS</h2>
       <div className="flex flex-col gap-3 lg:grid grid-cols-2 lg:gap-5">
         {Projetos.map((projeto) => {
@@ -74,7 +81,7 @@ export default function Home() {
           )
         })}
       </div>
-    </div>
+    </motion.div>
 
 
 

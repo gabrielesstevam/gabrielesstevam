@@ -1,8 +1,15 @@
+"use client";
+import { motion } from "motion/react"
+import { AnimatePresence } from "motion/react"
 import Formacao from "../../public/data/formacao.json";
 
 export default function Home() {
   return (
-    <div className="text-white p-5 m-2 flex gap-4 lg:gap-8 flex-col">
+    <motion.div 
+      className="text-white p-5 m-2 flex gap-4 lg:gap-8 flex-col"
+      initial={{opacity:0}}
+      animate={{opacity:1}}
+      transition={{duration: 0.5, ease:"easeIn", delay: 0.5 }}>
       <h2 className="text-4xl lg:text-5xl font-extrabold gradientText w-fit">FORMAÇÃO</h2>
       <div className="flex flex-col gap-5 lg:grid grid-cols-2">
         {Formacao.ensino.map((ensino) => {
@@ -32,6 +39,6 @@ export default function Home() {
           )
         })}
       </div>
-    </div>
+    </motion.div>
   );
 }

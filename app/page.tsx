@@ -1,11 +1,18 @@
+"use client";
+import { motion } from "motion/react"
+import { AnimatePresence } from "motion/react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
-
 
 export default function Home() {
   return (
     <>
-      <div className="text-white p-5 m-2 flex gap-5 flex-col lg:w-2/3">
+      <motion.div 
+        className="text-white p-5 m-2 flex gap-5 flex-col lg:w-2/3"
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        transition={{duration: 0.5, ease:"easeIn", delay: 0.5 }}
+      >
         <div className="text-4xl md:text-7xl font-extrabold">
           <h2 className="text-3xl gradientText inline-block md:text-5xl">GABRIEL ESTEVAM</h2>
           <h1>DESENVOLVEDOR <br/> FRONT-END <span className="text-3xl md:text-5xl gradientText">JÚNIOR</span></h1>
@@ -15,7 +22,7 @@ export default function Home() {
           <FontAwesomeIcon className="text-xl" icon={faDownload} />
           Baixe meu currículo aqui!
         </a>
-      </div>
+      </motion.div>
     </>
   );
 }
