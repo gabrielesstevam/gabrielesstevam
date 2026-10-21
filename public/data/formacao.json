@@ -1,14 +1,14 @@
 {
     "ensino":[
         {
-        "nome":"Técnico em Rede de Computadores",
-        "local":"Centro Estadual de Educação Profissional Professora Lourdinha Guerra",
-        "periodo":"Concluído - 2022 a 2024"
-        },
-        {
-        "nome":"Tecnólogo em Sistemas para Internet",
+        "nome":"TECNÓLOGO EM SISTEMAS PARA INTERNET",
         "local":"Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte",
         "periodo":"Cursando - 2° período"
+        },
+        {
+        "nome":"TÉCNICO EM REDES DE COMPUTADORES",
+        "local":"Centro Estadual de Educação Profissional Professora Lourdinha Guerra",
+        "periodo":"Concluído - 2022 a 2024"
         }
     ],
     "cursos":[

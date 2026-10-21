@@ -44,11 +44,11 @@ export default function Home() {
     <div className="text-white p-5 m-2 flex gap-6 flex-col">
       <h2 className="text-4xl font-extrabold gradientText inline-block w-fit">PROJETOS</h2>
       <div className="flex flex-col gap-3">
-        {Projetos.reverse().map((projeto) => {
+        {Projetos.map((projeto) => {
           return(
             <div key={projeto.titulo} className="p-3 border border-purple-500 bg-linear-to-r from-[#8800f746] to-transparent rounded-2xl shadow-2xl shadow-[#8800f780] flex flex-col gap-3">
               <p className="text-sm text-purple-300">{projeto.data}</p>
-              <h1>{projeto.titulo}</h1>
+              <h1 className="font-medium text-xl">{projeto.titulo}</h1>
               <hr className="border-purple-300" />
               <p>{projeto.descricao}</p>
               <hr className="border-purple-300" />

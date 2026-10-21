@@ -1,7 +1,7 @@
 [
   {
     "data":"07.2026",
-    "titulo":"Simulador de Loteria",
+    "titulo":"SIMULADOR DE LOTERIA",
     "descricao":"Projeto universitário desenvolvido para fins avaliativos, nele foi praticado a manipulação de arquivos csv, implementação de interface gráfica com Tkinter, e trabalho em equipe",
     "tecnologias":[
       "Python"
@@ -11,7 +11,7 @@
   },
   {
     "data":"09.2026",
-    "titulo":"DashBoard Climático",
+    "titulo":"DASHBOARD CLIMÁTICO",
     "descricao":"Prática de JavaScript, com foco em consumo de APIs, modularização do código, manipulação do DOM e uso do LocalStorage.",
     "tecnologias":[
       "Html", "Css", "Js"
@@ -21,7 +21,7 @@
   },
   {
     "data":"10.2026",
-    "titulo":"Algoritmo de Temporizador",
+    "titulo":"ALGORITMO DE TEMPORIZADOR",
     "descricao":"Prática de ReactJS, parar aprofundar no uso de useState, useEffect e useRef.",
     "tecnologias":[
       "Html", "Css", "Js", "Tailwind", "ReactJS"
