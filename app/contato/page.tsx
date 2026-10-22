@@ -9,59 +9,90 @@ export default function Home() {
     <div className="text-white p-5 m-2 flex gap-5 flex-col">
       <h2 className="text-4xl lg:text-5xl font-extrabold gradientText inline-block w-fit">CONTATO</h2>
       <div className="flex flex-col gap-3 lg:flex-row">
-        <motion.a
+        {/* LinkedIn */}
+        <motion.div
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
-          transition={{ type: "spring", delay: 0, stiffness: 200, damping: 30 }}
-          whileHover={{
-            color: "#ffffff",
-            borderColor: "#ffffff",
-            scale: 1.05,
-            rotate: 1
+          transition={{
+            type: "spring",
+            delay: 0,
+            stiffness: 200,
+            damping: 30,
           }}
-          href="https://www.linkedin.com/in/gabrielesstevam/"
-          target="_blank"
-          className="p-4 flex items-center gap-5 shadow-2xl shadow-[#8800f746] bg-linear-to-r from-[#8800f746] to-transparent border border-purple-500 rounded-2xl text-purple-300 lg:px-8"
         >
-          <FontAwesomeIcon className="text-2xl" icon={faLinkedin} />
-          gabrielesstevam
-        </motion.a>
+          <motion.a
+            whileHover={{
+              color: "#ffffff",
+              borderColor: "#ffffff",
+              scale: 1.05,
+              rotate: 1,
+            }}
+            transition={{ type: "spring", stiffness: 300, damping: 20 }}
+            href="https://www.linkedin.com/in/gabrielesstevam/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-4 flex items-center gap-5 shadow-2xl shadow-[#8800f746] bg-linear-to-r from-[#8800f746] to-transparent border border-purple-500 rounded-2xl text-purple-300 lg:px-8"
+          >
+            <FontAwesomeIcon className="text-2xl" icon={faLinkedin} />
+            gabrielesstevam
+          </motion.a>
+        </motion.div>
 
-        <motion.a
+        {/* GitHub */}
+        <motion.div
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
-          transition={{ type: "spring", delay: 0.15, stiffness: 200, damping: 30 }}
-          whileHover={{
-            color: "#ffffff",
-            borderColor: "#ffffff",
-            scale: 1.05,
-            rotate: 1
+          transition={{
+            type: "spring",
+            delay: 0.15,
+            stiffness: 200,
+            damping: 30,
           }}
-          href="https://github.com/gabrielesstevam"
-          target="_blank"
-          className="p-4 flex items-center gap-5 shadow-2xl shadow-[#8800f746] bg-linear-to-r from-[#8800f746] to-transparent border border-purple-500 rounded-2xl text-purple-300 lg:px-8"
         >
-          <FontAwesomeIcon className="text-2xl" icon={faGithub} />
-          gabrielesstevam
-        </motion.a>
+          <motion.a
+            whileHover={{
+              color: "#ffffff",
+              borderColor: "#ffffff",
+              scale: 1.05,
+              rotate: 1,
+            }}
+            transition={{ type: "spring", stiffness: 300, damping: 20 }}
+            href="https://github.com/gabrielesstevam"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-4 flex items-center gap-5 shadow-2xl shadow-[#8800f746] bg-linear-to-r from-[#8800f746] to-transparent border border-purple-500 rounded-2xl text-purple-300 lg:px-8"
+          >
+            <FontAwesomeIcon className="text-2xl" icon={faGithub} />
+            gabrielesstevam
+          </motion.a>
+        </motion.div>
 
-        <motion.a
+        {/* E-mail */}
+        <motion.div
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
-          transition={{ type: "spring", delay: 0.3, stiffness: 200, damping: 30 }}
-          whileHover={{
-            color: "#ffffff",
-            borderColor: "#ffffff",
-            scale: 1.05,
-            rotate: 1
+          transition={{
+            type: "spring",
+            delay: 0.3,
+            stiffness: 200,
+            damping: 30,
           }}
-          href="mailto:gsfe1502@gmail.com"
-          target="_blank"
-          className="p-4 flex items-center gap-5 shadow-2xl shadow-[#8800f746] bg-linear-to-r from-[#8800f746] to-transparent border border-purple-500 rounded-2xl text-purple-300 lg:px-8"
         >
-          <FontAwesomeIcon className="text-2xl" icon={faEnvelope} />
-          gsfe1502@gmail.com
-        </motion.a>
+          <motion.a
+            whileHover={{
+              color: "#ffffff",
+              borderColor: "#ffffff",
+              scale: 1.05,
+              rotate: 1,
+            }}
+            transition={{ type: "spring", stiffness: 300, damping: 20 }}
+            href="mailto:gsfe1502@gmail.com"
+            className="p-4 flex items-center gap-5 shadow-2xl shadow-[#8800f746] bg-linear-to-r from-[#8800f746] to-transparent border border-purple-500 rounded-2xl text-purple-300 lg:px-8"
+          >
+            <FontAwesomeIcon className="text-2xl" icon={faEnvelope} />
+            gsfe1502@gmail.com
+          </motion.a>
+        </motion.div>
       </div>
     </div>
   );

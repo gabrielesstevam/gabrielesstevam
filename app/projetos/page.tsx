@@ -50,47 +50,89 @@ export default function Home() {
         className="text-white p-5 m-2 flex gap-6 flex-col">
         <h2 className="text-4xl lg:text-5xl font-extrabold gradientText inline-block w-fit">PROJETOS</h2>
         <div className="flex flex-col gap-3 lg:grid grid-cols-2 lg:gap-5">
-          {Projetos.map((projeto, index) => {
-            return (
+          {Projetos.map((projeto, index) => (
+            <motion.div
+              key={projeto.titulo}
+              initial={{ scale: 0, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{
+                type: "spring",
+                delay: index * 0.15,
+                stiffness: 200,
+                damping: 30,
+              }}
+            >
               <motion.div
-                key={projeto.titulo}
-                initial={{ scale: 0, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-                transition={{
-                  type: "spring",
-                  delay: index * 0.15,
-                  stiffness: 200,
-                  damping: 30
-                }}
                 whileHover={{ borderColor: "#ffffff" }}
-                className="p-3 border border-purple-500 bg-linear-to-r from-[#8800f746] to-transparent rounded-2xl shadow-2xl shadow-[#8800f780] flex flex-col gap-3"
+                className="p-3 border border-purple-500 bg-linear-to-r from-[#8800f746] to-transparent rounded-2xl shadow-2xl shadow-[#8800f780] flex flex-col gap-3 h-full"
               >
                 <p className="text-sm text-purple-300">{projeto.data}</p>
+
                 <h1 className="font-medium text-xl">{projeto.titulo}</h1>
+
                 <hr className="border-purple-300" />
+
                 <p>{projeto.descricao}</p>
+
                 <hr className="border-purple-300" />
-                <div>
-                  {projeto.tecnologias.map((tecnologia) => {
-                    return (
-                      <FontAwesomeIcon key={tecnologia} className="text-2xl lg:text-3xl text-purple-200 hover:text-white transition" icon={AcharIcon(tecnologia)}></FontAwesomeIcon>
-                    )
-                  })}
+
+                <div className="flex flex-wrap gap-2">
+                  {projeto.tecnologias.map((tecnologia) => (
+                    <FontAwesomeIcon
+                      key={tecnologia}
+                      className="text-2xl lg:text-3xl text-purple-200 hover:text-white transition"
+                      icon={AcharIcon(tecnologia)}
+                    />
+                  ))}
                 </div>
+
                 <hr className="border-purple-300" />
-                <div className="flex gap-3 items-center">
-                  <motion.p whileHover={{ borderColor: "#ffffff", color: "#ffffff", scale: 1.05 }} transition={{ type: "spring" }} className="flex items-center gap-3 p-2 border border-purple-500 bg-linear-to-r from-[#8800f780] to-transparent w-fit rounded-2xl text-purple-300">
-                    Confira o Resultado <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon>
+
+                <div className="flex gap-3 items-center mt-auto">
+                  <motion.p
+                    whileHover={{
+                      borderColor: "#ffffff",
+                      color: "#ffffff",
+                      scale: 1.05,
+                    }}
+                    transition={{ type: "spring" }}
+                    className="flex items-center gap-3 p-2 border border-purple-500 bg-linear-to-r from-[#8800f780] to-transparent w-fit rounded-2xl text-purple-300"
+                  >
+                    Confira o Resultado
+                    <FontAwesomeIcon icon={faArrowRight} />
                   </motion.p>
-                  <motion.a whileHover={{ scale: 1.2 }} transition={{ type: "spring" }} href={projeto.github} target="_blank"><FontAwesomeIcon className="text-3xl text-purple-300 hover:text-white" icon={faGithub} /></motion.a>
-                  {projeto.site ? (<motion.a whileHover={{ scale: 1.2 }} transition={{ type: "spring" }} href={projeto.site} target="_blank"><FontAwesomeIcon className="text-3xl text-purple-300 hover:text-white" icon={faGlobe} /></motion.a>) : ""}
+
+                  <motion.a
+                    whileHover={{ scale: 1.2 }}
+                    transition={{ type: "spring" }}
+                    href={projeto.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon
+                      className="text-3xl text-purple-300 hover:text-white"
+                      icon={faGithub}
+                    />
+                  </motion.a>
+
+                  {projeto.site && (
+                    <motion.a
+                      whileHover={{ scale: 1.2 }}
+                      transition={{ type: "spring" }}
+                      href={projeto.site}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FontAwesomeIcon
+                        className="text-3xl text-purple-300 hover:text-white"
+                        icon={faGlobe}
+                      />
+                    </motion.a>
+                  )}
                 </div>
-
-
               </motion.div>
-
-            )
-          })}
+            </motion.div>
+          ))}
         </div>
       </div>
 

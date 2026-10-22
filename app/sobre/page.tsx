@@ -14,30 +14,32 @@ export default function Home() {
         <h2 className="text-3xl font-extrabold">TÉCNICOS</h2>
       </div>
       <div className="flex flex-wrap gap-3 md:w-2/3">
-        {Sobre.tecnologias.map((tecnologia, index) => {
-          return (
+        {Sobre.tecnologias.map((tecnologia, index) => (
+          <motion.div
+            key={tecnologia.nome}
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{
+              type: "spring",
+              delay: index * 0.1,
+              stiffness: 200,
+              damping: 15,
+            }}
+          >
             <motion.div
-              key={tecnologia.nome}
-              initial={{ scale: 0, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              transition={{
-                type: "spring",
-                delay: index * 0.10,
-                stiffness: 200,
-                damping: 15
-              }}
               whileHover={{
                 scale: 1.1,
                 rotate: 3,
                 color: "#ffffff",
-                borderColor: "#ffffff"
+                borderColor: "#ffffff",
               }}
-              className="py-3 px-5 text-purple-300 bg-linear-to-r from-[#8800f780] to-transparent rounded-2xl border border-purple-600 shadow-2xl shadow-[#8800f780]"
+              transition={{ type: "spring", stiffness: 300, damping: 15 }}
+              className="rounded-2xl border border-purple-600 bg-linear-to-r from-[#8800f780] to-transparent px-5 py-3 text-purple-300 shadow-2xl shadow-[#8800f780]"
             >
               {tecnologia.nome}
             </motion.div>
-          );
-        })}
+          </motion.div>
+        ))}
       </div>
     </div>
   );
