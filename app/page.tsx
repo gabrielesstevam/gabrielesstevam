@@ -20,7 +20,7 @@ export default function Home() {
         whileHover={{ scale: 1.05 , borderColor:"#ffffff", color:"#ffffff"}}
         whileTap={{ scale: 1.1 }}
         transition={{ type:"spring" }}
-        href="../public/data/Currículo_GabrielEstevam.pdf" download={"Currículo_GabrielEstevam.pdf"} className="bg-linear-to-r from-[#8800f780] to-transparent border border-purple-600 rounded-2xl p-3 text-center text-purple-300 flex items-center justify-center gap-3 shadow-lg/40 shadow-[#8800f7] lg:w-2/3">
+        href="/data/Currículo_GabrielEstevam.pdf" download={"Currículo_GabrielEstevam.pdf"} className="bg-linear-to-r from-[#8800f780] to-transparent border border-purple-600 rounded-2xl p-3 text-center text-purple-300 flex items-center justify-center gap-3 shadow-lg/40 shadow-[#8800f7] lg:w-2/3">
           <FontAwesomeIcon className="text-xl" icon={faDownload} />
           Baixe meu currículo aqui!
         </motion.a>
