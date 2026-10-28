@@ -13,16 +13,16 @@
     ],
     "cursos":[
         {
-            "nome":"HTML e CSS [200 HORAS] - Curso em Vídeo",
-            "data":"04.2026"
+            "nome":"React direto ao ponto [10 HORAS] - Lucas Caton",
+            "data":"10.2026"
         },
         {
             "nome":"JavaScript [40 HORAS] - Curso em Vídeo",
             "data":"05.2026"
         },
         {
-            "nome":"React direto ao ponto [10 HORAS] - Lucas Caton",
-            "data":"10.2026"
+            "nome":"HTML e CSS [200 HORAS] - Curso em Vídeo",
+            "data":"04.2026"
         }
     ]
 

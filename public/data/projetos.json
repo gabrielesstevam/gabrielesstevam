@@ -1,4 +1,15 @@
 [
+  
+  {
+    "data":"10.2026",
+    "titulo":"ALGORITMO DE TEMPORIZADOR",
+    "descricao":"Prática de ReactJS, parar aprofundar no uso de useState, useEffect e useRef.",
+    "tecnologias":[
+      "Html", "Css", "Js", "Tailwind", "ReactJS"
+    ],
+    "github":"https://github.com/gabrielesstevam/projeto_temporizador",
+    "site":"https://gabrielesstevam.github.io/projeto_temporizador/"
+  },
   {
     "data":"07.2026",
     "titulo":"SIMULADOR DE LOTERIA",
@@ -6,8 +17,7 @@
     "tecnologias":[
       "Python"
     ],
-    "github":"https://github.com/gabrielesstevam/projeto_dashboard_climatico",
-    "site":"https://gabrielesstevam.github.io/projeto_dashboard_climatico/"
+    "github":"https://github.com/gabrielesstevam/projeto_loteria"
   },
   {
     "data":"09.2026",
@@ -18,15 +28,5 @@
     ],
     "github":"https://github.com/gabrielesstevam/projeto_dashboard_climatico",
     "site":"https://gabrielesstevam.github.io/projeto_dashboard_climatico/"
-  },
-  {
-    "data":"10.2026",
-    "titulo":"ALGORITMO DE TEMPORIZADOR",
-    "descricao":"Prática de ReactJS, parar aprofundar no uso de useState, useEffect e useRef.",
-    "tecnologias":[
-      "Html", "Css", "Js", "Tailwind", "ReactJS"
-    ],
-    "github":"https://github.com/gabrielesstevam/projeto_temporizador",
-    "site":"https://gabrielesstevam.github.io/projeto_temporizador/"
   }
 ]
